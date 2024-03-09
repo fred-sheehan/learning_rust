@@ -217,7 +217,9 @@ fn main() {
 /*
 Function using the match function to update the gallows based on the number
 of incorrect guesses, and _parts_displayed of the gallows shown. Note the
-underscore prepending the _parts_displayed variable used to indicate to the rust compiler that the parameter is not called directly, else it would throw a warning about the parameter not being used. This is a common convention in Rust.
+underscore prepending the _parts_displayed variable used to indicate to the rust
+compiler that the parameter is not called directly, else it would throw a warning
+about the parameter not being used. This is a common convention in Rust.
 */
 fn update_gallows(gallows: &mut [&str; 6], _parts_displayed: &mut usize, incorrect_guesses: usize) {
     match incorrect_guesses {

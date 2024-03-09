@@ -10,4 +10,4 @@ If you want to know the details of how the game works, you can read the
 source code and the extensive comments.
 
 I have also included an optimised binary file in this root directory
-called `Ascii_Hangman` which can be run directly from the terminal.
+called `ascii_hangman` which can be run directly from the terminal.
